@@ -20,6 +20,22 @@
             android:layout_height="wrap_content"
             android:text="@string/stock_symbol" />
 
+        <EditText
+            android:id="@+id/stockSymbolEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_weight="1">
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/enterStockSymbolButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_stock_symbol" />
+
     </TableRow>
 
 </TableLayout>
