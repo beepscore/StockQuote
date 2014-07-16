@@ -38,4 +38,23 @@
 
     </TableRow>
 
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/egg_shell">
+
+        <TextView
+            android:id="@+id/stockSymbolTextView"
+            android:layout_width="match_parent"
+            android:layout_span="2"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="@string/stock_symbol_list"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/stock_list_text_size" />
+
+    </TableRow>
+
 </TableLayout>
