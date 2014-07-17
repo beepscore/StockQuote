@@ -26,8 +26,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:layout_weight="1"
-            android:layout_column="3">
+            android:layout_weight="1" >
             <requestFocus />
         </EditText>
 
@@ -35,8 +34,7 @@
             android:id="@+id/enterStockSymbolButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/enter_stock_symbol"
-            android:layout_column="4" />
+            android:text="@string/enter_stock_symbol" />
 
     </TableRow>
 
@@ -49,10 +47,10 @@
         <TextView
             android:id="@+id/stockSymbolTextView"
             android:layout_width="match_parent"
-            android:layout_span="4"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
             android:padding="5dp"
             android:textColor="@color/black"
-            android:layout_height="wrap_content"
             android:text="@string/stock_symbol_list"
             android:gravity="center_horizontal"
             android:textSize="@dimen/stock_list_text_size" />
@@ -70,10 +68,11 @@
             android:id="@+id/stockScrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_span="3"
+            android:layout_span="2"
             android:padding="5dp" >
 
             <TableLayout
+                android:id="@+id/stockTableScrollView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -97,7 +96,7 @@
             android:layout_span="2"
             android:layout_weight="1"
             android:text="@string/delete_all_symbols" />
-        
+
     </TableRow>
 
 </TableLayout>
