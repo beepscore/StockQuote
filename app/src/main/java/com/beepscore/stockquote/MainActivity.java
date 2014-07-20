@@ -1,12 +1,24 @@
 package com.beepscore.stockquote;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TableLayout;
 
 
 public class MainActivity extends Activity {
+
+    // scope is visible to other activities
+    public final static String STOCK_SYMBOL = "com.beepscore.stockquote.STOCK";
+    private SharedPreferences stockSymbolsEntered;
+    private TableLayout stockTableScrollView;
+    private EditText stockSymbolEditText;
+    Button enterStockSymbolButton;
+    Button deleteStocksButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
