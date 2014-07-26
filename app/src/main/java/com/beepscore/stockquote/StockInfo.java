@@ -10,19 +10,19 @@ public class StockInfo {
     private String yearLow = "";
     private String yearHigh = "";
     private String name = "";
-    private String lastTradePriceonly = "";
+    private String lastTradePriceOnly = "";
     private String change = "";
     private String daysRange = "";
 
 
-    public StockInfo(String daysLow, String daysHigh, String yearLow, String yearHigh, String name, String lastTradePriceonly, String change, String daysRange) {
+    public StockInfo(String daysLow, String daysHigh, String yearLow, String yearHigh, String name, String lastTradePriceOnly, String change, String daysRange) {
         super();
         this.daysLow = daysLow;
         this.daysHigh = daysHigh;
         this.yearLow = yearLow;
         this.yearHigh = yearHigh;
         this.name = name;
-        this.lastTradePriceonly = lastTradePriceonly;
+        this.lastTradePriceOnly = lastTradePriceOnly;
         this.change = change;
         this.daysRange = daysRange;
     }
@@ -67,12 +67,12 @@ public class StockInfo {
         this.name = name;
     }
 
-    public String getLastTradePriceonly() {
-        return lastTradePriceonly;
+    public String getLastTradePriceOnly() {
+        return lastTradePriceOnly;
     }
 
-    public void setLastTradePriceonly(String lastTradePriceonly) {
-        this.lastTradePriceonly = lastTradePriceonly;
+    public void setLastTradePriceOnly(String lastTradePriceOnly) {
+        this.lastTradePriceOnly = lastTradePriceOnly;
     }
 
     public String getChange() {

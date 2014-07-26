@@ -25,5 +25,6 @@
     <string name="last_trade_price_only">Last Price:</string>
     <string name="change">Change:</string>
     <string name="days_range">Daily Price Range:</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

@@ -137,9 +137,9 @@ public class MainActivity extends Activity {
             TextView stockTextView = (TextView) tableRow.findViewById(R.id.stockSymbolTextView);
             String stockSymbol = stockTextView.getText().toString();
 
-            //Intent intent = new Intent(MainActivity.this, StockInfoActivity.class);
-            //intent.putExtra(STOCK_SYMBOL, stockSymbol);
-            //startActivity(intent);
+            Intent intent = new Intent(MainActivity.this, StockInfoActivity.class);
+            intent.putExtra(STOCK_SYMBOL, stockSymbol);
+            startActivity(intent);
         }
     };
 
